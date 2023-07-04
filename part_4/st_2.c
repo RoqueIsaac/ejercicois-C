@@ -13,7 +13,7 @@ enum state {IDLE, FIRST_DIGIT, SECOND_DIGIT, THIRD_DIGIT, FOUR_DIGIT, FIFTH_DIGI
         switch(state){
             case IDLE:
                 //display welcome mesage
-                printf("\nEnter 3 digist password (x<0 exit)\n");
+                printf("\nEnter 3 digits password (x<0 exit)\n");
                 state = FIRST_DIGIT;
                 break;
             case FIRST_DIGIT:
